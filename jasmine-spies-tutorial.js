@@ -19,7 +19,7 @@ function() {
       enemy.doSomething('anything');
       
       // expect for the enemy to have done something
-      expect(enemy.doSomething).toHaveBeenCalled;
+      expect(enemy.doSomething).toHaveBeenCalled();
     });
     
     it('should see the enemy doing something suspicious', function(){
